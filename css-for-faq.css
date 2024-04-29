@@ -1,4 +1,18 @@
-    body {
+@media screen and (orientation:landscape) { 
+    h1 {
+        font-size: 3vw;
+    }
+    h2 {
+        font-size: 1.5vw;
+    }
+    h3 {
+        font-size: 1.5vw; font-weight: bold;
+    }
+    p {
+        font-size: 1.5vw;
+    }
+
+   body {
         background-image: url("y-so-serious.png");
         background-attachment: fixed;
         background-color: #141414;
@@ -22,8 +36,8 @@
         backdrop-filter: blur(2px);
         padding: 1vw;
         border-radius: 4vw;
-        width: 42vw;
-        height: 18vw;
+        width: 48vw;
+        height: 22vw;
         margin-left: 1vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         
@@ -38,8 +52,8 @@
         backdrop-filter: blur(2px);
         padding: 1vw;
         border-radius: 4vw;
-        width: 42vw;
-        height: 18vw;
+        width: 48vw;
+        height: 22vw;
         margin-left: 2vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
@@ -68,40 +82,99 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 
-    @media screen and (orientation:landscape) { 
-    h1 {
-        font-size: 3vw;
-    }
-    h2 {
-        font-size: 1.5vw;
-    }
-    h3 {
-        font-size: 1.5vw; font-weight: bold;
-    }
-    p {
-        font-size: 1.5vw;
-    }
-}
-
-@media screen and (orientation:portrait) { 
-    h1 {
-        font-size: 3.8vw;
-    }
-    h2 {
-        font-size: 2.2vw;
-    }
-    h3 {
-        font-size: 2.2vw; font-weight: bold;
-    }
-    p {
-        font-size: 1.8vw;
-    }
-}
     a:link {
         color: #c8d7cb;
     }
 
-    
-a:visited {
+    a:visited {
         color: #6ea9d3;
     }
+
+}
+
+@media screen and (orientation:portrait) { 
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 3.8vw;
+    }
+    h3 {
+        font-size: 3.8vw; font-weight: bold;
+    }
+    p {
+        font-size: 3.5vw;
+    }
+
+    body {
+        background-image: url("y-so-serious.png");
+        background-attachment: fixed;
+        background-color: #141414;
+    }
+
+    .topbodleft {
+        text-align: center;
+        font-size: 1vw;
+        background-color: rgba(255, 255 ,255, .15);
+        color: #c8d7cb;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        padding: 1vw;
+        border-radius: 4vw;
+        width: 90vw;
+        max-width: 100%;
+        height: 36vw;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .topbodright {
+        text-align: center;
+        font-size: 1vw;
+        line-height: 2em;
+        background-color: rgba(255, 255 ,255, .15);
+        color: #c8d7cb;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        padding: 1vw;
+        border-radius: 4vw;
+        width: 90vw;
+        max-height: 100%;
+        height: 25vw;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .questions {
+        background-color: rgba(255, 255 ,255, .15);  
+        color: #c8d7cb;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        padding: 1vw;
+        border-radius: 4vw;
+        width: 90vw;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title {
+        text-align: center;
+        background-color: rgba(255, 255 ,255, .15);
+        color: #c8d7cb;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        padding: 0.2vw;
+        border-radius: 4vw;
+        width: 65vw;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    a:link {
+        color: #c8d7cb;
+    }
+
+    a:visited {
+        color: #6ea9d3;
+    }
+}
+
