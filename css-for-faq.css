@@ -33,7 +33,7 @@
         line-height: 2em;
         background-color: rgba(255, 255 ,255, .15);
         color: #c8d7cb;
-        -webkit-background-filter: (2px);
+        -webkit-backdrop-filter: (2px);
         backdrop-filter: blur(2px);
         padding: 1vw;
         border-radius: 4vw;
@@ -46,7 +46,7 @@
     .questions {
         background-color: rgba(255, 255 ,255, .15);  
         color: #c8d7cb;
-        -webkit-background-filter: (2px);
+        -webkit-backdrop-filter: (2px);
         backdrop-filter: blur(2px);
         padding: 1vw;
         border-radius: 4vw;
@@ -58,7 +58,7 @@
         text-align: center;
         background-color: rgba(255, 255 ,255, .15);
         color: #c8d7cb;
-        -webkit-background-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px);
         padding: 0.2vw;
         border-radius: 4vw;
