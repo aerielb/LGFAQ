@@ -12,9 +12,19 @@
         font-size: 1.5vw;
     }
 
-   body {
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
         background-image: url("y-so-serious.png");
-        background-attachment: fixed;
+        z-index: -1;
+      }
+
+   body {
+        
         background-color: #141414;
     }
     
@@ -105,10 +115,22 @@
     p {
         font-size: 3.5vw;
     }
-
-    body {
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
         background-image: url("y-so-serious.png");
-        background-attachment: fixed;
+        z-index: -1;
+      }
+      
+      body {
+        padding-bottom: 2000px;
+      }
+    body {
+       
         background-color: #141414;
     }
 
